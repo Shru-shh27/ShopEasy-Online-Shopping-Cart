@@ -1,0 +1,6 @@
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>ShopEasy</strong> &mdash; Online Shopping Cart built with Java, Servlets &amp; JSP</p>
+    <p class="muted">Free shipping on orders over <fmt:formatNumber value="100" type="currency" currencySymbol="${cur}"/> &bull; Secure checkout &bull; Easy returns</p>
+  </div>
+</footer>

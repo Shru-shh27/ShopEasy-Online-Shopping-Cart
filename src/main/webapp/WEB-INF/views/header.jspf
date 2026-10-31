@@ -1,0 +1,16 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<%-- Change the currency symbol for the whole site here --%>
+<c:set var="cur" value="$"/>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="${ctx}/products"><span class="logo">&#128717;</span> Shop<span>Easy</span></a>
+    <nav>
+      <a href="${ctx}/products">Home</a>
+      <a href="${ctx}/products">Products</a>
+      <a class="cart-link" href="${ctx}/cart">&#128722; Cart
+        <span class="badge"><c:out value="${empty cart ? 0 : cart.itemCount}"/></span></a>
+    </nav>
+  </div>
+</header>
