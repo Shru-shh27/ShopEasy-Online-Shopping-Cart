@@ -19,7 +19,7 @@ ShopEasy lets customers browse products, search and filter by category, add item
 - 🛒 **Shopping cart:** add, update quantity, remove items, clear cart
 - 🔍 **Product search** and **category filters**
 - ⭐ 12 sample products with ratings and category-themed cards
-- 💰 **Order summary** with subtotal, shipping (free over 100) and 5% tax
+- 💰 **Order summary** with subtotal, shipping (free over 100) and 5% taxs
 - 🚚 Free-shipping **progress bar** in the cart
 - 📝 **Checkout form** with server-side validation (name, email, address)
 - 💳 Payment method selection (Cash on Delivery, UPI, Card)
